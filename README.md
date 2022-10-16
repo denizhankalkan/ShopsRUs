@@ -15,7 +15,17 @@ Getting Started
 5. The percentage based discounts do not apply on groceries.
 6. A user can get only one of the percentage based discounts on a bill.
 
-## Installing 
+## Prerequirements
+
+Visual Studio 2022
+.NET Core SDK
+
+## How To Run
+
+
+Open solution in Visual Studio 2017
+Set .Web project as Startup Project and build the project.
+Run the application.
 
 
 
