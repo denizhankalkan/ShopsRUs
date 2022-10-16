@@ -17,16 +17,29 @@ Getting Started
 
 ## Prerequirements
 
-1. Visual Studio 2022
-2. .NET Core SDK
+1. .NET Core 6.0
 
 ## How To Run
 
-1. Open solution in Visual Studio 2017
-2. Set .Web project as Startup Project and build the project.
+2. Build the project.
 3. Run the application.
 4. Open Postman Application
-5. Send request as in the example in the picture I attached below.
+5. Send request "https://localhost:7011/api/bill/calculate-discounts" as in the example in the picture I attached below.
+{
+    "customerId": 1,
+    "products": [
+        {
+            "name": "Milk",
+            "productType": "Other",
+            "price": 1000
+        },
+        {
+            "name": "Fish",
+            "productType": "Groceries",
+            "price": 500
+        }
+    ]
+}
 
 
 
