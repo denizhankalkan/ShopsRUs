@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs.Tests/ShopsRUs.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs.Tests/ShopsRUs.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs.Tests/ShopsRUs.Tests.csproj",
+        "projectName": "ShopsRUs.Tests",
+        "projectPath": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs.Tests/ShopsRUs.Tests.csproj",
+        "packagesPath": "/Users/denizhankalkan/.nuget/packages/",
+        "outputPath": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/denizhankalkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/ShopsRUs.csproj": {
+                "projectPath": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/ShopsRUs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/ShopsRUs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/ShopsRUs.csproj",
+        "projectName": "ShopsRUs",
+        "projectPath": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/ShopsRUs.csproj",
+        "packagesPath": "/Users/denizhankalkan/.nuget/packages/",
+        "outputPath": "/Users/denizhankalkan/Desktop/ShopsRUs/ShopsRUs/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/denizhankalkan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
