@@ -17,18 +17,16 @@ Getting Started
 
 ## Prerequirements
 
-Visual Studio 2022
-.NET Core SDK
+1. Visual Studio 2022
+2. .NET Core SDK
 
 ## How To Run
 
-
-Open solution in Visual Studio 2017
-Set .Web project as Startup Project and build the project.
-Run the application.
-
-
-
+1. Open solution in Visual Studio 2017
+2. Set .Web project as Startup Project and build the project.
+3. Run the application.
+4. Open Postman Application
+5. Send request as in the example in the picture I attached below.
 
 
 
